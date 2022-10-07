@@ -11,28 +11,27 @@ using WeChatWASM;
 public class Launcher : MonoBehaviour
 {
     public GUISkin m_skin;
+    public CoroutineMgr m_coroutine;
     private AsyncOperationHandle<SceneInstance> m_loadHandle;
     private AsyncOperationHandle m_downloadHandle;
     private float m_startTime;
     void Start()
     {
         Debug.Log("Launcher Start");
+        m_coroutine.WaitForFrames(5, OnLastFrame);
+    }
+
+    private void OnLastFrame()
+    {
         m_startTime = Time.timeSinceLevelLoad;
-        WX.SetGameStage(0); 
+        WX.SetGameStage(0);
         WX.ReportGameStageCostTime(0, "Launcher Scene Start");
         if (m_skin != null)
         {
             ScreenLog screenLog = gameObject.AddComponent<ScreenLog>();
             screenLog.Initiate(m_skin, CmdMsg);
         }
-        m_downloadHandle = Addressables.DownloadDependenciesAsync("Assets/Scene/Field.unity");
-        m_downloadHandle.Completed += OnDownloaded;
-    }
-
-    private void OnDownloaded(AsyncOperationHandle handle)
-    {
-        Debug.Log("OnDownloaded");
-        m_loadHandle = Addressables.LoadSceneAsync("Assets/Scene/Field.unity");
+        m_loadHandle = Addressables.LoadSceneAsync("Assets/Scenes/Field.unity");
         m_loadHandle.Completed += OnLoadCompleted;
     }
     private void OnLoadCompleted(AsyncOperationHandle<SceneInstance> handle)

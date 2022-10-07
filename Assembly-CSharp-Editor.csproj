@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{60D9FDC7-E73F-F6E5-F6DA-3E53CB14861B}</ProjectGuid>
+    <ProjectGuid>{ED00DF85-4888-71F7-5B65-8D3D3C261ED8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -823,11 +823,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{F98B7FF4-E639-C176-C2B6-F5C51CB2731D}</Project>
+      <Project>{91062078-CCB6-C439-6000-82C99FE06217}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Mischief.MDV.Editor.csproj">
-      <Project>{B005636F-3C0E-D5F8-0A71-9936D2A356BF}</Project>
+      <Project>{59827FA7-A68D-5B9C-1949-5B1C0145597C}</Project>
       <Name>Mischief.MDV.Editor</Name>
     </ProjectReference>
   </ItemGroup>

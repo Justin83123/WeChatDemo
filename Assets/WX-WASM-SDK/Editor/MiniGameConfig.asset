@@ -18,7 +18,7 @@ MonoBehaviour:
     CDN: https://assetstreaming-content.unity.cn/client_api/v1/buckets/13121cc0-9d1a-4fd6-aad0-4c2ad08bacae/release_by_badge/latest/content/
     assetLoadType: 1
     VideoUrl: 
-    DST: E:/UnityProjects/WeChatMiniGameDemo/Build
+    DST: E:/UnityProjects/WeChatDemo/Build
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;
@@ -47,7 +47,7 @@ MonoBehaviour:
     ScriptOnly: 0
     profilingFuncs: 0
     Webgl2: 0
-    DeleteStreamingAssets: 0
+    DeleteStreamingAssets: 1
     ProfilingMemory: 0
   CompressTexture:
     halfSize: 0

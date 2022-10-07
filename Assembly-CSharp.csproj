@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F98B7FF4-E639-C176-C2B6-F5C51CB2731D}</ProjectGuid>
+    <ProjectGuid>{91062078-CCB6-C439-6000-82C99FE06217}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -79,6 +79,7 @@
     <Compile Include="Assets\WX-WASM-SDK\WXCanvas.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXFileSystemManager.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonWriter.cs" />
+    <Compile Include="Assets\CoroutineMgr.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXInnerAudioContext.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\IJsonWrapper.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXLaunchProgress.cs" />
@@ -100,7 +101,6 @@
     <Compile Include="Assets\WX-WASM-SDK\WXRecorder.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXVideo.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXUserInfoButton.cs" />
-    <Compile Include="Assets\AddressableAssetsData\cdsurl.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXOpenDataContext.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXUDPSocketManager.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXCallBackHandler.cs" />
@@ -753,7 +753,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mischief.MDV.Editor.csproj">
-      <Project>{B005636F-3C0E-D5F8-0A71-9936D2A356BF}</Project>
+      <Project>{59827FA7-A68D-5B9C-1949-5B1C0145597C}</Project>
       <Name>Mischief.MDV.Editor</Name>
     </ProjectReference>
   </ItemGroup>

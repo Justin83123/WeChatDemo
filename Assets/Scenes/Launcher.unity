@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 46439193}
   - component: {fileID: 46439194}
+  - component: {fileID: 46439195}
   m_Layer: 0
   m_Name: Laucher
   m_TagString: Untagged
@@ -167,6 +168,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_skin: {fileID: 11400000, guid: b28d0180b970e334184ad43253cf351c, type: 2}
+  m_coroutine: {fileID: 46439195}
+--- !u!114 &46439195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46439192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d419a25933d30cb4d81cf23cdf69f1c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

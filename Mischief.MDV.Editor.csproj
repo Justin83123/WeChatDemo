@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B005636F-3C0E-D5F8-0A71-9936D2A356BF}</ProjectGuid>
+    <ProjectGuid>{59827FA7-A68D-5B9C-1949-5B1C0145597C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Mischief.MDV.Editor</AssemblyName>

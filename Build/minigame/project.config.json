@@ -18,32 +18,24 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "lazyloadPlaceholderEnable": false,
     "useMultiFrameRuntime": true,
-    "useApiHook": true,
-    "useApiHostProcess": true,
+    "useApiHook": false,
+    "disableUseStrict": false,
     "babelSetting": {
-      "ignore": [
-        "webgl.wasm.framework.unityweb.js"
-      ],
+      "ignore": ["webgl.wasm.framework.unityweb.js"],
       "disablePlugins": [],
       "outputPath": ""
     },
     "useIsolateContext": true,
-    "userConfirmedUseIsolateContext": true,
-    "userConfirmedBundleSwitch": false,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
     "packNpmManually": false,
-    "packNpmRelationList": [],
-    "minifyWXSS": true,
-    "disableUseStrict": false,
-    "showES6CompileOption": false,
-    "useCompilerPlugins": false,
-    "ignoreUploadUnusedFiles": true
+    "packNpmRelationList": []
   },
   "compileType": "game",
   "libVersion": "2.24.6",
   "appid": "wxf7191f4ad4f90321",
-  "projectname": "%E7%AC%BC%E6%96%97%E8%B6%B3%E7%90%83",
+  "projectname": "笼斗足球",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "packOptions": {
@@ -60,9 +52,11 @@
   },
   "condition": {
     "search": {
+      "current": -1,
       "list": []
     },
     "conversation": {
+      "current": -1,
       "list": []
     },
     "game": {
@@ -70,6 +64,7 @@
       "list": []
     },
     "miniprogram": {
+      "current": -1,
       "list": []
     }
   }

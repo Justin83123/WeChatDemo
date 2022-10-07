@@ -15,8 +15,12 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_Data:
     m_SerializedData: []
-  m_GUID: 2279691f2b1544e4ea3e91340b972383
-  m_SerializeEntries: []
+  m_GUID: 5d51a3d088c9b624d88a5e1ececfd2a0
+  m_SerializeEntries:
+  - m_GUID: 9496be55668ecb040a37870701028b47
+    m_Address: Assets/Scenes/Field.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ef255d1e9d73d3d4481a02433dd6eed9, type: 2}
   m_SchemaSet:
