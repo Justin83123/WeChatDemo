@@ -15,7 +15,7 @@ MonoBehaviour:
   ProjectConf:
     projectName: "\u7B3C\u6597\u8DB3\u7403"
     Appid: wxf7191f4ad4f90321
-    CDN: https://assetstreaming-content.unity.cn/client_api/v1/buckets/13121cc0-9d1a-4fd6-aad0-4c2ad08bacae/release_by_badge/latest/content/
+    CDN: uckets/13121cc0-9d1a-4fd6-aad0-4c2ad08bacae/release_by_badge/latest/content/4fd6-aad0-4c2ad08bacae/release_by_badge/latest/content/
     assetLoadType: 1
     VideoUrl: 
     DST: E:/UnityProjects/WeChatDemo/Build

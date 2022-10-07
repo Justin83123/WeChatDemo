@@ -1,0 +1,5 @@
+ucd auth login 53c0f9329016f141b704c2470cc47108
+ucd entries syncCos --bucket 13121cc0-9d1a-4fd6-aad0-4c2ad08bacae webgl
+ucd releases create --bucket 13121cc0-9d1a-4fd6-aad0-4c2ad08bacae --notes="promote" --metadata="{\"test\":\"promote\"}"
+
+https://assetstreaming-content.unity.cn/client_api/v1/buckets/13121cc0-9d1a-4fd6-aad0-4c2ad08bacae/release_by_badge/latest/content/
